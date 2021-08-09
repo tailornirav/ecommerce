@@ -1,0 +1,128 @@
+.sidebar-wrap {
+    height: 100vh;
+    background: #363f4d;
+    width: 250px;
+    flex: 0 0 250px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-wrap > ul > li > a {
+    color: #fff;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+a {
+    display: inline-block;
+}
+.page-inner {
+    display: flex;
+}
+
+.main-wrap {
+    width: 100%;
+    height: 100vh;
+    padding: 30px 30px;
+    overflow-y: scroll;
+}
+.main-wrap::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.main-wrap::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.main-wrap::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.main-wrap::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.menu-wrap > ul > li {
+    border-top: 1px solid #fff;
+    position: relative;
+}
+
+.menu-wrap > ul {
+    border-bottom: 1px solid #fff;
+}
+
+.menu-wrap > ul > li ul {
+    position: absolute;
+    opacity: 0;
+    left: 110%;
+    border: 1px solid #fff;
+    min-width: 200px;
+    background: #eb3e32;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+}
+
+.menu-wrap > ul > li ul a {color: #fff;padding: 10px 15px;width: 100%;}
+
+.menu-wrap > ul > li:hover ul {
+    left: 100%;
+}
+
+.menu-wrap > ul > li ul li + li {
+    border-top: 1px solid #fff;
+}
+
+.menu-wrap > ul > li > a:hover {
+    background: #eb3e32;
+    color: #fff;
+}
+
+a {
+    transition: all 0.3s ease 0s;
+}
+
+.menu-wrap > ul > li ul a:hover {
+    background: #363f4d;
+    color: #fff;
+}
+.menu-wrap > ul > li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+.logo-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-logo {
+    padding: 10px 10px;
+}
+
+.sidebar-logo-inner img {
+    width: 100%;
+}
+
+.sidebar-logo-inner {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: inset 0 0 3px 0px #eb3e32;
+}
+.form-box > span {
+    width: 100%;
+    display: inline-block;
+    font-weight: bold;
+}

@@ -1,0 +1,430 @@
+insert into banners (image, name, discription, url) values ('/image/blog_img2.jpg', 'Diwali Dhamaka', 'Get 500% off on selected products. On this diwili come shop with us.', '/shop/0');
+insert into banners (image, name, discription, url) values ('/image/blog_img1.jpg', 'Holi Dhamaka', 'Get 500% off on selected products. On this diwili come shop with us.', '/shop/0');
+insert into banners (image, name, discription, url) values ('/image/blog_img3.jpg', 'Dhuleti Dhamaka', 'Get 500% off on selected products. On this diwili come shop with us.', '/shop/0');
+insert into banners (image, name, discription, url) values ('/image/blog_img4.jpg', 'Diwali Dhamaka', 'Get 500% off on selected products. On this diwili come shop with us.', '/shop/0');
+insert into banners (image, name, discription, url) values ('/image/blog_img5.jpg', 'Diwali Dhamaka', 'Get 500% off on selected products. On this diwili come shop with us.', '/shop/0');
+
+insert into shippings (charge) values (100);
+
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Biba',
+    'image/saller-img-1.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    2200,
+    2199,
+    50,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Roadster',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Kurta',
+          '2021-02-11 11:37:23'
+
+);
+    insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+    values (
+        'Here and There',
+        'image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+        824,
+        800,
+        150,
+        'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+        'Roadster',
+        'Wedding',
+        'White',
+        'Slimfit',
+        'S',
+        'Shirt'
+        ,'2021-02-10 11:37:23'
+    );
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Black',
+    'image/saller-img-3.jpg,image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-4.jpg',
+    599,
+    550,
+    68,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Levi',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Jeans'
+    ,'2021-02-12 11:37:23'
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Highlander',
+    'image/saller-img-4.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    5000,
+    3999,
+    10,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Allen Soly',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'T-Shirt'
+            ,'2021-02-10 11:37:23'
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Biba',
+    'image/saller-img-1.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    2200,
+    2199,
+    50,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Roadster',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Kurta'
+            ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Here and There',
+    'image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    824,
+    800,
+    150,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Roadster',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Shirt'
+            ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Black',
+    'image/saller-img-3.jpg,image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-4.jpg',
+    599,
+    550,
+    68,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Levi',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Jeans'
+            ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Highlander',
+    'image/saller-img-4.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    5000,
+    3999,
+    10,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Allen Soly',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'T-Shirt'
+            ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Biba',
+    'image/saller-img-1.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    2200,
+    2199,
+    50,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Roadster',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Kurta'
+            ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Here and There',
+    'image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    824,
+    800,
+    150,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Roadster',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Shirt'
+            ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Black',
+    'image/saller-img-3.jpg,image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-4.jpg',
+    599,
+    550,
+    68,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Levi',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Jeans'
+            ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Highlander',
+    'image/saller-img-4.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    5000,
+    3999,
+    10,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Allen Soly',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'T-Shirt'
+        ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Biba',
+    'image/saller-img-1.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    2200,
+    2199,
+    50,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Roadster',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Kurta'
+    ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Here and There',
+    'image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    824,
+    800,
+    150,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Roadster',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Shirt'
+        ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Black',
+    'image/saller-img-3.jpg,image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-4.jpg',
+    599,
+    550,
+    68,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Levi',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Jeans'
+        ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Highlander',
+    'image/saller-img-4.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    5000,
+    3999,
+    10,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Allen Soly',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'T-Shirt'
+        ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Biba',
+    'image/saller-img-1.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    2200,
+    2199,
+    50,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Roadster',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Kurta'
+        ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Here and There',
+    'image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    824,
+    800,
+    150,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Roadster',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Shirt'
+        ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Black',
+    'image/saller-img-3.jpg,image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-4.jpg',
+    599,
+    550,
+    68,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Levi',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Jeans'
+        ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Highlander',
+    'image/saller-img-4.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    5000,
+    3999,
+    10,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Allen Soly',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'T-Shirt'
+        ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Biba',
+    'image/saller-img-1.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    2200,
+    2199,
+    50,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Roadster',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Kurta'
+        ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Here and There',
+    'image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    824,
+    800,
+    150,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Roadster',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Shirt'
+        ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Black',
+    'image/saller-img-3.jpg,image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-4.jpg',
+    599,
+    550,
+    68,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Levi',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'Jeans'
+        ,'2021-02-10 11:37:23'
+
+);
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'Highlander',
+    'image/saller-img-4.jpg,image/saller-img-2.jpg,image/saller-img-3.jpg,image/saller-img-4.jpg',
+    5000,
+    3999,
+    10,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Allen Soly',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'T-Shirt'
+        ,'2021-02-10 11:37:23'
+
+);
+
+insert into products (name, images, prize, finalPrize, availability, discription, brand, season, color, fit, size, category, created_at)
+values (
+    'UCB',
+    'image/saller-img-2.jpg,image/saller-img-1.jpg,image/saller-img-4.jpg,image/saller-img-3.jpg',
+    4500,
+    4400,
+    10,
+    'Green and pink floral embroidered kurta with trousers and dupatta Green and pink floral embroidered straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slits, straight hem, an attached lining Green solid trousers, has a partially elasticated waistband, drawstring closure Green and pink striped dupatta, has a solid border',
+    'Allen Soly',
+    'Wedding',
+    'White',
+    'Slimfit',
+    'S',
+    'T-Shirt'
+    ,'2021-02-07 11:37:23'
+);
